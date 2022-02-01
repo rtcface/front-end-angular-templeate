@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class SideBarComponent implements OnInit {
 
   constructor() { }
-
+  visibleSidebar1: boolean = true;
   ngOnInit(): void {
   }
 

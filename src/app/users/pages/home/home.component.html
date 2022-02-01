@@ -1,9 +1,30 @@
-<h1>
-    Route Father
-    <hr>
-</h1>
-<h2>
-    Route Child
-    <hr>
-    <router-outlet></router-outlet>
-</h2>
+
+<p-sidebar (blockScroll)=block [(visible)]="visibleSidebar1">    
+    <p-avatar
+    shape="circle" 
+    pBadge value="5"     
+    size="xlarge" class="p-avatar-xl" >
+    <img src="../../../../assets/img/user.webp" alt="avatar"  />
+    </p-avatar>
+    <h1>Left Sidebar</h1>
+    <ul>
+        <li>
+            item1
+        </li>
+        <li>
+            item2
+        </li>
+    </ul>
+</p-sidebar>
+<div style="height: 350px; position: relative;" class="speeddial-delay-demo">
+   <button showIcon="pi pi-bars" hideIcon="pi pi-times" buttonClassName="p-button-outlined"></button> 
+</div>
+
+
+
+
+
+
+
+
+
