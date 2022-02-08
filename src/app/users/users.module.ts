@@ -7,8 +7,8 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 import { SearchComponent } from './pages/search/search.component';
 import { UserComponent } from './pages/user/user.component';
 import { UsersRoutingModule } from './users-routing.module';
-
-
+import { SharedModule } from '../shared/shared.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,7 +21,9 @@ import { UsersRoutingModule } from './users-routing.module';
   imports: [    
     CommonModule,
     PrimeNgModule,
-    UsersRoutingModule
+    UsersRoutingModule,
+    SharedModule,
+    FormsModule
   ]
 })
 export class UsersModule { }

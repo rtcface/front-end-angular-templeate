@@ -1,5 +1,4 @@
 html {
-  font-size: 62%;
   box-sizing: border-box;
 }
 
@@ -9,7 +8,7 @@ html {
 
 body {
   font-family: var(--font-family);
-  font-size: 1.6rem;
+  font-size: 2rem;
   background-color: var(--surface-b);
 }
 
@@ -48,6 +47,106 @@ h2 {
 
 h3 {
   font-size: 3.2rem;
+}
+
+.settings-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 0rem 1rem;
+}
+
+.body-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-content .item-body {
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+.body-content .item-sidebar {
+  width: 100%;
+  max-width: 4rem;
+  margin: 0 auto;
+}
+
+.skil-item .skil-item-content {
+  border: 1px solid var(--surface-d);
+  border-radius: 3px;
+  margin: 0.3rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+.skil-item .skil-image {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.skil-item img {
+  height: 10rem;
+  width: 10rem;
+  object-fit: scale-down;
+}
+.skil-item h4 {
+  color: var(--text-color);
+}
+
+.card-sidebar {
+  width: 100%;
+  max-width: 1rem;
+}
+
+.theme-image {
+  height: 3rem;
+  width: 3rem;
+  object-fit: scale-down;
+}
+
+.card-change-theme {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-change-theme img {
+  height: 3rem;
+  width: 3rem;
+  object-fit: scale-down;
+}
+
+.theme-grid-item {
+  margin: 0.5em;
+  border: 1px solid #dee2e6;
+  display: flex;
+  flex: flex-wrap;
+  height: 3rem;
+  width: 3rem;
+  align-items: center;
+}
+.theme-grid-item .theme-grid-item-top,
+.theme-grid-item .theme-grid-item-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.theme-grid-item img {
+  height: 3rem;
+  width: 3rem;
+  object-fit: scale-down;
+  margin: 0 0;
+}
+.theme-grid-item .theme-grid-item-content {
+  text-align: center;
+}
+.theme-grid-item .theme-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card {
+  padding: 0.1rem;
+  box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin-bottom: 0.1rem;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -388,4 +487,15 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+.main-navigation {
+  padding: 2rem 0rem;
+}
+
+.menu-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1rem;
 }

@@ -20,8 +20,7 @@ export class HomeComponent implements OnInit  {
 
   
 
-  showVisibleSidebar() {
-    console.log("showVisibleSidebar---------Tmp---------------------");
+  showVisibleSidebar() {   
     this.visibleSidebar1 = true;
   }
 }

@@ -1,7 +1,7 @@
 @use 'variables' as var;
 
 html{
-    font-size: 62%;
+    // font-size: 61%;
     box-sizing: border-box;
 }
 
@@ -11,7 +11,7 @@ html{
 
 body{
     font-family: var.$main-font;
-    font-size: 1.6rem;
+    font-size: 2rem;
     background-color: var.$bg-color;        
 }
 
@@ -48,3 +48,123 @@ img{
  h3{
     font-size: 3.2rem;
  }
+
+ .settings-container{    
+    display: flex;
+    justify-content: right;        
+    align-items: center;
+    padding: 0rem 1rem;
+ }
+
+ .body-content{
+    display: flex;
+    justify-content: center;        
+    align-items: center;    
+
+    .item-body{
+        width: 100%;
+        max-width: 100rem;
+        margin: 0 auto;
+    }
+
+    .item-sidebar{
+        width: 100%;
+        max-width: 4rem;
+        margin: 0 auto;
+    }
+ }
+
+
+
+ .skil-item {
+    .skil-item-content {
+        border: 1px solid var(--surface-d);
+        border-radius: 3px;
+        margin: .3rem;
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    .skil-image {       
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+    }
+
+    img {
+        height: 10rem;
+        width:  10rem;
+        object-fit: scale-down;
+      }
+
+      h4 {
+        color: var.$txt-c;
+      }
+}
+
+.card-sidebar{
+    width: 100%;
+    max-width: 1rem;
+    
+}
+.theme-image{
+   
+    height: 3rem;
+    width:  3rem;
+    object-fit: scale-down;
+}
+
+.card-change-theme{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   img {
+        height: 3rem;
+        width:  3rem;
+        object-fit: scale-down;
+      }
+
+   
+}
+
+.theme-grid-item {
+    margin: .5em;
+    border: 1px solid #dee2e6;
+    display: flex;
+    flex: flex-wrap;
+    height: 3rem;
+    width:  3rem;
+    align-items: center;
+
+    .theme-grid-item-top,
+    .theme-grid-item-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    img {
+        height: 3rem;
+        width:  3rem;
+        object-fit: scale-down;
+        margin: 0 0;
+    }
+
+    .theme-grid-item-content {
+        text-align: center;
+    }
+
+    .theme-price {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+}
+
+.card {
+    padding: .1rem;
+    box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    margin-bottom: .1rem;
+}
+
+
+
+  

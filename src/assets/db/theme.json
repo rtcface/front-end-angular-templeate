@@ -1,0 +1,117 @@
+{
+    "data": [
+        {
+            "id":1,
+            "name":"arya-blue",
+            "tooltip":"Arya Blue",
+            "image": "/assets/img/arya-blue.png",
+            "avif": "/assets/img/arya-blue.avif",
+            "webp": "/assets/img/arya-blue.webp"
+        },
+        {
+            "id":2,
+            "name":"bootstrap4-dark-blue",
+            "tooltip":"Bootstrap 4 Dark Blue",
+            "image": "/assets/img/bootstrap4-dark-blue.png",
+            "avif": "/assets/img/bootstrap4-dark-blue.avif",
+            "webp": "/assets/img/bootstrap4-dark-blue.webp"
+        },
+        {
+            "id":3,
+            "name":"bootstrap4-light-blue",
+            "tooltip":"Bootstrap 4 Light Blue",
+            "image": "/assets/img/bootstrap4-light-blue.png",
+            "avif": "/assets/img/bootstrap4-light-blue.avif",
+            "webp": "/assets/img/bootstrap4-light-blue.webp"
+        },
+        {
+            "id":4,
+            "name":"lara-dark-blue",
+            "tooltip":"Lara Dark Blue",
+            "image": "/assets/img/lara-dark-blue.png",
+            "avif": "/assets/img/lara-dark-blue.avif",
+            "webp": "/assets/img/lara-dark-blue.webp"
+        },
+        {
+            "id":5,
+            "name":"lara-light-blue",
+            "tooltip":"Lara Light Blue",
+            "image": "/assets/img/lara-light-blue.png",
+            "avif": "/assets/img/lara-light-blue.avif",
+            "webp": "/assets/img/lara-light-blue.webp"
+        },
+        {
+            "id":6,
+            "name":"lara-dark-indigo",
+            "tooltip":"Lara Dark Indigo",
+            "image": "/assets/img/lara-dark-indigo.png",
+            "avif": "/assets/img/lara-dark-indigo.avif",
+            "webp": "/assets/img/lara-dark-indigo.webp"
+        },
+        {
+            "id":7,
+            "name":"lara-light-indigo",
+            "tooltip":"Lara Light Indigo",
+            "image": "/assets/img/lara-light-indigo.png",
+            "avif": "/assets/img/lara-light-indigo.avif",
+            "webp": "/assets/img/lara-light-indigo.webp"
+        },
+        {
+            "id":8,
+            "name":"luna-blue",
+            "tooltip":"Luna Blue",
+            "image": "/assets/img/luna-blue.png",
+            "avif": "/assets/img/luna-blue.avif",
+            "webp": "/assets/img/luna-blue.webp"            
+        },
+        {
+            "id":9,
+            "name":"luna-green",
+            "tooltip":"Luna Green",
+            "image": "/assets/img/luna-green.png",
+            "avif": "/assets/img/luna-green.avif",
+            "webp": "/assets/img/luna-green.webp"
+        },
+        {
+            "id":10,
+            "name":"luna-pink",
+            "tooltip":"Luna Pink",
+            "image": "/assets/img/luna-pink.png",
+            "avif": "/assets/img/luna-pink.avif",
+            "webp": "/assets/img/luna-pink.webp"
+        },
+        {
+            "id":11,
+            "name":"saga-blue",
+            "tooltip":"Saga Blue",
+            "image": "/assets/img/saga-blue.png",
+            "avif": "/assets/img/saga-blue.avif",
+            "webp": "/assets/img/saga-blue.webp"
+        },
+        {
+            "id":12,
+            "name":"saga-green",
+            "tooltip":"Saga Green",
+            "image": "/assets/img/saga-green.png",
+            "avif": "/assets/img/saga-green.avif",
+            "webp": "/assets/img/saga-green.webp"            
+        },
+        {
+            "id":13,
+            "name":"vela-blue",
+            "tooltip":"Vela Blue",
+            "image": "/assets/img/vela-blue.png",
+            "avif": "/assets/img/vela-blue.avif",
+            "webp": "/assets/img/vela-blue.webp"
+        },
+        {
+            "id":14,
+            "name":"vela-green",
+            "tooltip":"Vela Green",
+            "image": "/assets/img/vela-green.png",
+            "avif": "/assets/img/vela-green.avif",
+            "webp": "/assets/img/vela-green.webp"
+        }
+        
+    ]
+}

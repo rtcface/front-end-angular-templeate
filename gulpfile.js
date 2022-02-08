@@ -26,7 +26,7 @@ const dev = () => {
 }
 
 const images = () => {
-    return src('src/scss/img/**/*')
+    return src('src/scss/img/**/*.{png,jpg,jpeg,gif}')
     .pipe(imagesmin({ optimizationLevel: 3 }))
     .pipe(dest('src/assets/img'));
 }
@@ -42,7 +42,7 @@ const webpimages = () => {
 
 const avifimages = () => {
     const options = {quality: 50}
-    return src('src/img/**/*.{png,jpg,jpeg,gif}')
+    return src('src/scss/img/**/*.{png,jpg,jpeg,gif}')
     .pipe(avif(options))
     .pipe(dest('src/assets/img'));
 }

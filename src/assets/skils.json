@@ -1,0 +1,211 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "name": "Angular",
+            "description": "A powerful Javascript framework for building single page apps. Angular is open source, and maintained by Google.",
+            "image": "/assets/img/angular.png",
+            "avif": "/assets/img/angular.avif",            
+            "webp": "/assets/img/angular.webp",
+            "url": "https://angular.io/"
+        },
+        {
+            "id": "2",
+            "name": "Flutter",
+            "description": "Flutter is Google's mobile app SDK for building beautiful, natively compiled applications for iOS and Android from a single codebase.",
+            "image": "/assets/img/flutter.png",
+            "avif": "/assets/img/flutter.avif",
+            "webp": "/assets/img/flutter.webp",
+            "url": "https://flutter.io/"
+        },
+        {
+            "id": "3",
+            "name":"C-Sharp",
+            "description": "C# is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.",
+            "image": "/assets/img/csharp.png",
+            "avif": "/assets/img/csharp.avif",
+            "webp": "/assets/img/csharp.webp",
+            "url": "https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/"
+        },
+        {
+            "id": "4",
+            "name": "Java Spring Boot",
+            "description": "Spring Boot is a development server for the Java platform. It provides a lightweight framework for building web and application applications.",
+            "image": "/assets/img/springboot.png",
+            "avif": "/assets/img/springboot.avif",
+            "webp": "/assets/img/springboot.webp",
+            "url": "https://spring.io/projects/spring-boot"
+        },
+        {
+            "id": "5",
+            "name": "Node JS",
+            "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
+            "image": "/assets/img/node.png",
+            "avif": "/assets/img/node.avif",
+            "webp": "/assets/img/node.webp",
+            "url": "https://nodejs.org/"
+        },
+        {
+            "id": "6",
+            "name": "Python",
+            "description": "Python is an interpreted, high-level, general-purpose programming language.",
+            "image": "/assets/img/python.png",
+            "avif": "/assets/img/python.avif",
+            "webp": "/assets/img/python.webp",
+            "url": "https://www.python.org/"
+        },
+        {
+            "id": "7",
+            "name": "Java",
+            "description": "Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.",
+            "image": "/assets/img/java.png",
+            "avif": "/assets/img/java.avif",
+            "webp": "/assets/img/java.webp",
+            "url": "https://www.java.com/"
+        },
+        {
+            "id": "8",
+            "name": "SQL",
+            "description": "SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS).",
+            "image": "/assets/img/sql.png",
+            "avif": "/assets/img/sql.avif",
+            "webp": "/assets/img/sql.webp",
+            "url": "https://en.wikipedia.org/wiki/SQL"
+        },
+        {
+            "id": "9",
+            "name": "HTML",
+            "description": "HTML is the standard markup language for creating web pages and web applications.",
+            "image": "/assets/img/html.png",
+            "avif": "/assets/img/html.avif",
+            "webp": "/assets/img/html.webp",
+            "url": "https://en.wikipedia.org/wiki/HTML"    
+        },
+        {
+            "id": "10",
+            "name": "CSS",
+            "description": "CSS is the main style sheet language used to style the content of Web pages.",
+            "image": "/assets/img/css.png",
+            "avif": "/assets/img/css.avif",
+            "webp": "/assets/img/css.webp",
+            "url": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets"
+        },
+        {
+            "id": "11",
+            "name": "JavaScript",
+            "description": "JavaScript is a high-level, dynamic, untyped, and interpreted programming language.",
+            "image": "/assets/img/js.png",
+            "avif": "/assets/img/js.avif",
+            "webp": "/assets/img/js.webp",
+            "url": "https://en.wikipedia.org/wiki/JavaScript"
+        },
+        {
+            "id": "12",
+            "name": "SQL Server",
+            "description": "SQL Server is a relational database management system (DBMS) developed by Microsoft.",
+            "image": "/assets/img/sqlserver.png",
+            "avif": "/assets/img/sqlserver.avif",
+            "webp": "/assets/img/sqlserver.webp",
+            "url": "https://www.microsoft.com/en-us/sql-server/"
+        },
+        {
+            "id": "13",
+            "name": "MySQL",
+            "description": "MySQL is a open-source relational database management system (DBMS) based on the SQL language.",
+            "image": "/assets/img/mysql.png",
+            "avif": "/assets/img/mysql.avif",
+            "webp": "/assets/img/mysql.webp",
+            "url": "https://www.mysql.com/"
+        },
+        {
+            "id":"14",
+            "name": "MongoDB",
+            "description": "MongoDB is a document-oriented database program. It is designed for easy readability and extensibility.",
+            "image": "/assets/img/mongodb.png",
+            "avif": "/assets/img/mongodb.avif",
+            "webp": "/assets/img/mongodb.webp",
+            "url": "https://www.mongodb.com/"
+        },
+        {
+            "id":"15",
+            "name": "Docker",
+            "description": "Docker is a containerization technology that enables developers to build, ship, and run applications with containers, on any platform with access to the same version of the operating system.",
+            "image": "/assets/img/docker.png",
+            "avif": "/assets/img/docker.avif",
+            "webp": "/assets/img/docker.webp",
+            "url": "https://www.docker.com/"
+        },
+        {
+            "id":"16",
+            "name":"Git",
+            "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+            "image": "/assets/img/git.png",
+            "avif": "/assets/img/git.avif",
+            "webp": "/assets/img/git.webp",
+            "url": "https://git-scm.com/"
+        },
+        {
+            "id":"17",
+            "name":"GitHub",
+            "description": "GitHub is a web-based hosting service for version control using Git. It offers access control and several collaboration features such as bug tracking, feature requests, task management, and wikis.",
+            "image": "/assets/img/github.png",
+            "avif": "/assets/img/github.avif",
+            "webp": "/assets/img/github.webp",
+            "url": "https://github.com"
+        },
+        {
+            "id":"18",
+            "name":"GitLab",
+            "description": "GitLab is a Git-based project hosting service with a focus on simplicity and developer productivity.",
+            "image": "/assets/img/gitlab.png",
+            "avif": "/assets/img/gitlab.avif",
+            "webp": "/assets/img/gitlab.webp",
+            "url": "https://gitlab.com/"
+        },
+        {
+            "id":"19",
+            "name":"Nest JS",
+            "description": "Nest.js is a JavaScript framework for building cloud-native applications.",
+            "image": "/assets/img/nestjs.png",
+            "avif": "/assets/img/nestjs.avif",
+            "webp": "/assets/img/nestjs.webp",
+            "url": "https://nestjs.com/"
+        },
+        {
+            "id":"20",
+            "name": "Sass",
+            "description": "Sass is a stylesheet language that is interpreted by the Sass compiler.",
+            "image": "/assets/img/sass.png",
+            "avif": "/assets/img/sass.avif",
+            "webp": "/assets/img/sass.webp",
+            "url": "https://sass-lang.com/"
+        },
+        {
+            "id":"21",
+            "name": "Bootstrap",
+            "description": "Bootstrap is a free and open-source CSS framework based on the responsive grid system.",
+            "image": "/assets/img/bootstrap.png",
+            "avif": "/assets/img/bootstrap.avif",
+            "webp": "/assets/img/bootstrap.webp",
+            "url": "https://getbootstrap.com/"
+        },
+        {
+            "id":"22",
+            "name":"PostGreSQL",
+            "description": "PostgreSQL is a powerful, open source object-relational database system.",
+            "image": "/assets/img/postgresql.png",
+            "avif": "/assets/img/postgresql.avif",
+            "webp": "/assets/img/postgresql.webp",
+            "url": "https://www.postgresql.org/"
+        },
+        {
+            "name": "GraphQL",
+            "description": "GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.",
+            "image": "/assets/img/graphql.png",
+            "avif": "/assets/img/graphql.avif",
+            "webp": "/assets/img/graphql.webp",
+            "url": "https://graphql.org/"
+            
+        }
+    ]
+}

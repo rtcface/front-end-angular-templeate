@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ThemeServiceService } from '../../services/theme-service.service';
+import { Theme } from '../../../users/models/theme';
+import { SkilsService } from '../../../users/services/skils.service';
 
 @Component({
   selector: 'app-side-bar',
@@ -7,9 +10,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideBarComponent implements OnInit {
 
-  constructor() { }
-  visibleSidebar1: boolean = true;
+  listThemes:Theme[]=[];
+
+  constructor( 
+    private changeThem:ThemeServiceService,
+    private theme:SkilsService
+    ) { }
+  visibleSidebar1: boolean = false;
   ngOnInit(): void {
+    this.theme.getThem()
+    .subscribe( resp => { 
+      <Theme[]> resp.data
+      this.listThemes = resp.data;
+    });
   }
 
+
+  chagetheme(theme:string){
+    const themeLink= document.querySelector('#theme');
+    console.log(theme);
+    const uri = `assets/css/${theme}/theme.css`;
+    console.log(uri);
+    themeLink?.setAttribute('href',uri);
+  }
 }
