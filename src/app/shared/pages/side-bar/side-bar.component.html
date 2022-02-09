@@ -1,83 +1,87 @@
-<p-sidebar  [(visible)]="visibleSidebar1">
-    <div class="card-sidebar">
-        <p-card header="Ramiro Tepehua Cortes" subheader="Ingeniero en sistemas" [style]="{width: '275px'}" styleClass="p-card-shadow">
-            <ng-template pTemplate="header">
-                <a href="#" pTooltip="full stack" tooltipPosition="bottom">
-                    <picture>
-                        <source srcset="/assets/img/user.avif" type="image/avif">
-                        <source srcset="/assets/img/user.webp" type="image/webp">
-                        <img src="/assets/img/user.png" alt="user" class="skil-image" /> 
-                    </picture>
-                </a>   
-            </ng-template>
-            <p></p>
-            <ng-template pTemplate="footer">                
-                <p-button label="Cancel" 
-                icon="pi pi-times" 
-                styleClass="p-button-secondary"                
-                (onClick)="visibleSidebar1=false"></p-button>
-            </ng-template>
-        </p-card>
+<div class="side-container">
+    <div class="side-b">
+        <p-sidebar  [(visible)]="visibleSidebar1">
+            <div class="card-sidebar">
+                <p-card header="Ramiro Tepehua Cortes" subheader="Ingeniero en sistemas" [style]="{width: '275px'}" styleClass="p-card-shadow">
+                    <ng-template pTemplate="header">
+                        <a href="#" pTooltip="full stack" tooltipPosition="bottom">
+                            <picture>
+                                <source srcset="/assets/img/user.avif" type="image/avif">
+                                <source srcset="/assets/img/user.webp" type="image/webp">
+                                <img src="/assets/img/user.png" alt="user" class="skil-image" /> 
+                            </picture>
+                        </a>   
+                    </ng-template>
+                    <p></p>
+                    <ng-template pTemplate="footer">                
+                        <p-button label="Cancel" 
+                        icon="pi pi-times" 
+                        styleClass="p-button-secondary"                
+                        (onClick)="visibleSidebar1=false"></p-button>
+                    </ng-template>
+                </p-card>
+            </div>
+            <div class="card">
+                <p-dataView [value]="listThemes" [paginator]="true" [rows]="5">
+                    <ng-template pTemplate="header">
+                        <p-dataViewLayoutOptions></p-dataViewLayoutOptions>
+                    </ng-template>                              
+                    <ng-template let-theme pTemplate="gridItem">
+                        <div class="theme-grid-item card ">
+                            <div class="theme-grid-item-content">
+                            <a (click)="chagetheme(theme.name)" pTooltip="{{theme.tooltip}}" tooltipPosition="bottom">
+                                <picture>
+                                    <source srcset="{{theme.avif}}" type="image/avif">
+                                    <source srcset="{{theme.webp}}" type="image/webp">
+                                    <img src="{{theme.image}}" [alt]="theme.name" class="theme-image" /> 
+                                </picture>
+                            </a>
+                            </div>  
+                        </div>
+                        
+                        <!-- <div class="p-col-12 p-md-4">
+                            <div class="theme-grid-item card ">
+                                <div class="theme-grid-item-content">
+                                    
+                                </div>                     
+                            </div>
+                        </div>                 -->
+                    </ng-template>                   
+                </p-dataView>   
+            </div>
+            <div class="card">
+                <p-dataView [value]="listThemes" [paginator]="true" [rows]="5">
+                    <ng-template pTemplate="header">
+                        <p-dataViewLayoutOptions></p-dataViewLayoutOptions>
+                    </ng-template>
+                    <ng-template let-car pTemplate="listItem">
+                        <div >
+                            <div class="theme-grid-item card ">
+                                <div class="theme-grid-item-content">
+                                    {{car.id}}  
+                                </div>                     
+                            </div>
+                        </div>      
+                      
+                    </ng-template>
+                    <ng-template let-car pTemplate="gridItem">
+                        
+                        <div class="theme-grid-item card ">
+                            <div class="theme-grid-item-content">
+                                {{car.name}}  
+                            </div>                     
+                        </div>
+                    </ng-template>
+                    <ng-template pTemplate="footer">
+                        <p-dataViewLayoutOptions></p-dataViewLayoutOptions>
+                    </ng-template>
+                </p-dataView>
+        
+            </div>    
+        </p-sidebar>
+    </div>    
+    <div class="settings-container">
+        <p-button  icon="pi pi-cog" (onClick)="visibleSidebar1=true"></p-button>
     </div>
-    <div class="card">
-        <p-dataView [value]="listThemes" [paginator]="true" [rows]="5">
-            <ng-template pTemplate="header">
-                <p-dataViewLayoutOptions></p-dataViewLayoutOptions>
-            </ng-template>                              
-            <ng-template let-theme pTemplate="gridItem">
-                <div class="theme-grid-item card ">
-                    <div class="theme-grid-item-content">
-                    <a (click)="chagetheme(theme.name)" pTooltip="{{theme.tooltip}}" tooltipPosition="bottom">
-                        <picture>
-                            <source srcset="{{theme.avif}}" type="image/avif">
-                            <source srcset="{{theme.webp}}" type="image/webp">
-                            <img src="{{theme.image}}" [alt]="theme.name" class="theme-image" /> 
-                        </picture>
-                    </a>
-                    </div>  
-                </div>
-                
-                <!-- <div class="p-col-12 p-md-4">
-                    <div class="theme-grid-item card ">
-                        <div class="theme-grid-item-content">
-                            
-                        </div>                     
-                    </div>
-                </div>                 -->
-            </ng-template>                   
-        </p-dataView>   
-    </div>
-    <div class="card">
-        <p-dataView [value]="listThemes" [paginator]="true" [rows]="5">
-            <ng-template pTemplate="header">
-                <p-dataViewLayoutOptions></p-dataViewLayoutOptions>
-            </ng-template>
-            <ng-template let-car pTemplate="listItem">
-                <div >
-                    <div class="theme-grid-item card ">
-                        <div class="theme-grid-item-content">
-                            {{car.id}}  
-                        </div>                     
-                    </div>
-                </div>      
-              
-            </ng-template>
-            <ng-template let-car pTemplate="gridItem">
-                
-                <div class="theme-grid-item card ">
-                    <div class="theme-grid-item-content">
-                        {{car.name}}  
-                    </div>                     
-                </div>
-            </ng-template>
-            <ng-template pTemplate="footer">
-                <p-dataViewLayoutOptions></p-dataViewLayoutOptions>
-            </ng-template>
-        </p-dataView>
-
-    </div>
-    
-</p-sidebar>
-<div class="settings-container">
-    <p-button  icon="pi pi-cog" (onClick)="visibleSidebar1=true"></p-button>
 </div>
+

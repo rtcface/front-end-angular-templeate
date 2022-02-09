@@ -27,10 +27,8 @@ export class SideBarComponent implements OnInit {
 
 
   chagetheme(theme:string){
-    const themeLink= document.querySelector('#theme');
-    console.log(theme);
-    const uri = `assets/css/${theme}/theme.css`;
-    console.log(uri);
+    const themeLink= document.querySelector('#theme');    
+    const uri = `assets/css/${theme}/theme.css`;   
     themeLink?.setAttribute('href',uri);
   }
 }

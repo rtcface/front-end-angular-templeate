@@ -49,27 +49,18 @@ h3 {
   font-size: 3.2rem;
 }
 
-.settings-container {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  padding: 0rem 1rem;
-}
-
 .body-content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .body-content .item-body {
-  width: 100%;
+  width: 70%;
   max-width: 100rem;
   margin: 0 auto;
 }
 .body-content .item-sidebar {
-  width: 100%;
-  max-width: 4rem;
-  margin: 0 auto;
+  width: 1%;
 }
 
 .skil-item .skil-item-content {
